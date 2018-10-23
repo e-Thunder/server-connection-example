@@ -21,9 +21,9 @@ app.controller('paramsDisplay', function($scope, $http, $interval){
 			 console.log("Failure on resetting data");
 		});
 	}
-				
-	$interval(function(){
+
+	$interval(function () {
 		$scope.loadData();
 	}, 1000);
-	
+
 });
