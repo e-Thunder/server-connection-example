@@ -1,4 +1,7 @@
 <?php
+header("Access-Control-Allow-Origin: *");
+
+include_once '../database/database.php';
 
 function createDataObject(){
     $obj->param1 = $_POST['param1'];
@@ -26,11 +29,11 @@ if(isset($_POST['param1'])){
     storeJsonData();
     
 	http_response_code(201);
-	echo "Succes";
+	echo "Data has been successfully inserted into database";
 }
 else{
 	http_response_code(-1);
-	echo "Failure";
+	echo "Failure on inserting data";
 }
 
 
