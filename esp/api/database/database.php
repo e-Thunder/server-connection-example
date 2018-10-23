@@ -2,9 +2,9 @@
 
 class Database{
 	private $host = "mysql.cba.pl";
-	private $db_name = "lukboz";
-	private $db_username = "lukboz";
-	private $db_password = "Ziemniak123";
+	private $db_name = "<<DB_NAME>>";
+	private $db_username = "<<LOGIN>>";
+	private $db_password = "<<PASSWORD>>";
 	public $connection;
 	
 	public function getConnection(){
