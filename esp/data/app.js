@@ -26,4 +26,23 @@ app.controller('paramsDisplay', function($scope, $http, $interval){
 		$scope.loadData();
 	}, 1000);
 
+	
+	// Not working due to wrong param1 - TODO
+
+	// Plotly.plot('scatter', [{
+	// 	x: $scope.myData.param1,
+	// 	y: $scope.myData.param2,
+	// 	mode: 'markers',
+	// 	type: 'scatter'
+	//   }]);
+	//   var interval = setInterval(function() {
+
+	// 	Plotly.extendTraces('scatter', {
+	// 	    x: [$scope.myData.param1],
+	// 	    y: [$scope.myData.param2]
+	// 	}, [0])
+	  
+	// 	if (cnt === 100) clearInterval(interval);
+	//   }, 300);
+
 });

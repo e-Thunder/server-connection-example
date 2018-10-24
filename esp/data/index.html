@@ -2,7 +2,10 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
+		<!-- Angular -->
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+		<!-- Plotly.js -->
+		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 		<style>
 			*{font-falimy: Arial;}
 			table, th, td{
@@ -16,7 +19,6 @@
 	<body>
 		<div ng-app="esp" ng-controller="paramsDisplay" ng-init="loadData()">
 		
-			<button ng-click="loadData()">Reload</button>
 			<button ng-click="resetData()">Reset</button>
 			
 			<table>
@@ -31,6 +33,10 @@
 			</table>
 			
 		</div>
+		<div id="scatter">
+			<!-- scatter plot -->
+		</div>
 		<script src="app.js"></script>
+		<script src="scatter.js"></script>
 	</body>
 </html>
