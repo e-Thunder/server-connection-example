@@ -1,0 +1,21 @@
+*{
+	font-falimy: Arial;
+}
+
+table, th, td{
+	border: 1px solid black;
+	padding: 2px;
+}
+
+button{
+	margin: 10px;
+}
+
+#appContainer{
+	float: left;
+}
+
+#scatter{
+	float: left;
+	width: 80%;
+}
