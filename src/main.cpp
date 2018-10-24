@@ -31,7 +31,7 @@ void loop()
 
 		// read temperature from buildin sensor and convert to Celcius
 		float currentTemperature = temperatureRead();
-		String message ="param1=" + String(currentTemperature) + "&param2=" + String(counter);
+		String message ="content={param1:" + String(currentTemperature) + ",param2:" + String(counter) + "}";
 		
 		int responseCode = http.POST(message);
 	
