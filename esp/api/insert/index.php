@@ -3,10 +3,6 @@ header("Access-Control-Allow-Origin: *");
 
 include_once '../database/database.php';
 
-/*
-input pattern: content={p1:v1,p2:v2},{p1:v1,p2:v2}
-*/
-
 if(isset($_POST['content'])){
 	$message = $_POST['content'];
 	

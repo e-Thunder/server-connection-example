@@ -2,40 +2,36 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
+		<link rel="stylesheet" href="dataStylesheet.css" />
 		<!-- Angular -->
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 		<!-- Plotly.js -->
 		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-		<style>
-			*{font-falimy: Arial;}
-			table, th, td{
-				border: 1px solid black;
-				padding: 2px;
-			}
-			button{margin: 10px;}
-		</style>
 	</head>
 	
 	<body>
-		<div ng-app="esp" ng-controller="paramsDisplay" ng-init="loadData()">
+		<div>
+			<div id="appContainer" ng-app="esp" ng-controller="paramsDisplay" ng-init="loadData()">
+			
+				<button ng-click="resetData()">Reset</button>
+				
+				<table>
+					<tr>
+						<th>Param 1</th>
+						<th>Param 2</th>
+					</tr>
+					<tr ng-repeat="x in myData">
+						<td>{{ x.param1 }}</td>
+						<td>{{ x.param2 }}</td>
+					</tr>
+				</table>
+				
+			</div>
+			<div id="scatter">
+				<!-- scatter plot -->
+			</div>
+		</div>
 		
-			<button ng-click="resetData()">Reset</button>
-			
-			<table>
-				<tr>
-					<th>Param 1</th>
-					<th>Param 2</th>
-				</tr>
-				<tr ng-repeat="x in myData">
-					<td>{{ x.param1 }}</td>
-					<td>{{ x.param2 }}</td>
-				</tr>
-			</table>
-			
-		</div>
-		<div id="scatter">
-			<!-- scatter plot -->
-		</div>
 		<script src="app.js"></script>
 		<script src="scatter.js"></script>
 	</body>
