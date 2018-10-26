@@ -33,7 +33,8 @@ void loop()
 		auto currentTemperature = temperatureRead();
 		// get current timestamp
 		auto timestamp = esp_log_timestamp();
-		String message = "param1=" + String(currentTemperature) + "&param2=" + String(timestamp);
+		String message = "content={param1:" + String(currentTemperature) + ",param2:" + String(timestamp) + "}" + 
+			"{param1:" + String(currentTemperature) + ",param2:" + String(timestamp) + "}";
 
 		int responseCode = http.POST(message);
 		String responseMessage = http.getString();
