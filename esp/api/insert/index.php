@@ -6,7 +6,6 @@ include_once '../database/database.php';
 if(isset($_POST['content'])){
 	$message = $_POST['content'];
 	
-	$message = substr($message, 8);
 	$message = str_replace('}{', '}&{', $message);
 	$items = explode('&', $message);
 	
@@ -18,7 +17,7 @@ if(isset($_POST['content'])){
 	}
 	$str = implode(',', $items);
 	
-	$jsonFile = fopen("values.json", 'r+');
+	$jsonFile = fopen("../../data/values.json", 'r+');
     fseek($jsonFile, 0, SEEK_END);
     if (ftell($jsonFile) > 0){
         fseek($jsonFile, -1, SEEK_END);
