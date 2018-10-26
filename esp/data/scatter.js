@@ -1,20 +1,22 @@
-function rand() { 
-    return Math.random();
+// anonymous function creating plot
+(function(){
+	Plotly.plot('scatter', [{
+		y: [],
+		mode: 'lines',
+		line: { color: '#80CAF6' }
+	}]);
+})();
+
+function updatePlot(dataArray){
+	Plotly.extendTraces('scatter', {
+		y: [dataArray]
+	}, [0]);
 }
 
-Plotly.plot('scatter', [{
-    y: [1, 2, 3].map(rand),
-    mode: 'lines',
-    line: { color: '#80CAF6' }
-}]);
-
-var cnt = 0;
-
-var interval = setInterval(function() {
-
-    Plotly.extendTraces('scatter', {
-        y: [[rand()]]
-    }, [0])
-
-    if (cnt === 100) clearInterval(interval);
-}, 300);
+function clearPlot(){
+	Plotly.newPlot('scatter', [{
+		y: [],
+		mode: 'lines',
+		line: { color: '#80CAF6' }
+	}]);
+}
