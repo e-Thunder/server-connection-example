@@ -1,10 +1,25 @@
 // anonymous function creating plot
 (function(){
+	var layout = {
+		title: 'Temperature sensor',
+		xaxis: {
+			title: 'timestamp',
+			titlefont: {
+				size: 14
+			}
+		},
+		yaxis: {
+			title: 'temperature [°C]',
+			titlefont: {
+				size: 14
+			}
+		}
+	}
 	Plotly.plot('scatter', [{
 		y: [],
 		mode: 'lines',
 		line: { color: '#80CAF6' }
-	}]);
+	}], layout);
 })();
 
 function updatePlot(dataArray){
