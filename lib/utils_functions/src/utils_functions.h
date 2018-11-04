@@ -1,21 +1,25 @@
 #ifndef _UTILS_H_
 #define _UTILS_H_
 
-#include <Arduino.h>
+#include <iostream>
+#include <string>
+#include <sstream>
+
+std::string to_string(float number);
 
 template <class T, int N>
-String prepare_message(T (&array)[N])
+std::string prepare_message(T (&array)[N])
 {
-	String data = "content={";
+	std::string data = "content={";
 	for (int i = 0; i < N; ++i)
 	{
-		String tmp = "param" + String(i + 1) + ":";
-		data.concat(tmp);
-		data.concat(String(array[i]));
+		std::string tmp = "param" + to_string(i + 1) + ":";
+		data.append(tmp);
+		data.append(to_string(array[i]));
 		if (i < N - 1)
-			data.concat(",");
+			data.append(",");
 		else
-			data.concat("}");
+			data.append("}");
 	}
 	return data;
 }

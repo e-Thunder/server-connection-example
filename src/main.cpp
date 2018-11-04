@@ -38,7 +38,7 @@ void loop()
 		float array[] = {currentTemperature, timestamp};
 		auto message = prepare_message(array);
 
-		int responseCode = http.POST(message);
+		int responseCode = http.POST(message.c_str());
 		String responseMessage = http.getString();
 		if (responseCode > 0)
 			Serial.println("Code: " + String(responseCode) + "; Message: " + responseMessage);

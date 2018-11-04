@@ -16,5 +16,6 @@ install:
     - platformio update
 
 script:
-    - platformio run
+    - pio run -e esp32doit-devkit-v1
+    - pio test -e native
 
