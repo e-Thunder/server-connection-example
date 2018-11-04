@@ -11,7 +11,7 @@ void test_convert_string()
 void test_prepare_messsage()
 {
     float array[] = {5.5, 3.3};
-    auto a = prepare_message(array);
+    std::string a = prepare_message(array);
     const char* expected = "content={param1:5.5,param2:3.3}";
     TEST_ASSERT_EQUAL_STRING(expected, a.c_str());
 }
