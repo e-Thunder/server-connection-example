@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/e-Thunder/server-connection-example.svg?branch=master)](https://travis-ci.org/e-Thunder/server-connection-example)
+
 Strona do wyswietlania i usuwania danych:
 http://lukboz.cba.pl/esp/data/index.html
 
