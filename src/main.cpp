@@ -30,15 +30,15 @@ void loop()
 		http.begin(insertion_address);
 		http.addHeader("Content-Type", "application/x-www-form-urlencoded");
 
-		// read temperature from buildin sensor and convert to Celcius
+		// read temperature from buildin sensor
 		auto currentTemperature = temperatureRead();
 		// get current timestamp
 		auto timestamp = esp_log_timestamp();
 
 		float array[] = {currentTemperature, timestamp};
-		auto message = prepare_message<float, 2>(array);
+		auto message = prepare_message(array);
 
-		int responseCode = http.POST(message);
+		int responseCode = http.POST(message.c_str());
 		String responseMessage = http.getString();
 		if (responseCode > 0)
 			Serial.println("Code: " + String(responseCode) + "; Message: " + responseMessage);

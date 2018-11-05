@@ -1,10 +1,35 @@
 {
     "terminal.integrated.env.windows": {
-        "PATH": "C:\\Users\\studia\\.platformio\\penv\\Scripts;C:\\Users\\studia\\.platformio\\penv;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Rtools\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\National Instruments\\Shared\\LabVIEW CLI;C:\\Users\\studia\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\studia\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\studia\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\studia\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\studia\\AppData\\Local\\atom\\bin;C:\\Users\\studia\\AppData\\Local\\Julia-1.0.1\\bin;C:\\Users\\studia\\AppData\\Local\\Programs\\MiKTeX 2.9\\miktex\\bin\\x64\\;C:\\Program Files\\R\\R-3.5.1\\bin;;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Rtools\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\National Instruments\\Shared\\LabVIEW CLI;C:\\Users\\studia\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\studia\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\studia\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\studia\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\studia\\AppData\\Local\\atom\\bin;C:\\Users\\studia\\AppData\\Local\\Julia-1.0.1\\bin;C:\\Users\\studia\\AppData\\Local\\Programs\\MiKTeX 2.9\\miktex\\bin\\x64\\;C:\\Program Files\\R\\R-3.5.1\\bin;",
+        "PATH": "C:\\Users\\studia\\.platformio\\penv\\Scripts;C:\\Users\\studia\\.platformio\\penv;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Rtools\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\National Instruments\\Shared\\LabVIEW CLI;C:\\Program Files\\nodejs\\;C:\\MinGW\\bin;C:\\Users\\studia\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\studia\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\studia\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\studia\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\studia\\AppData\\Local\\atom\\bin;C:\\Users\\studia\\AppData\\Local\\Julia-1.0.1\\bin;C:\\Users\\studia\\AppData\\Local\\Programs\\MiKTeX 2.9\\miktex\\bin\\x64\\;C:\\Program Files\\R\\R-3.5.1\\bin;C:\\Users\\studia\\AppData\\Roaming\\npm;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Rtools\\bin;C:\\Program Files\\ImageMagick-7.0.8-Q16;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\National Instruments\\Shared\\LabVIEW CLI;C:\\Program Files\\nodejs\\;C:\\MinGW\\bin;C:\\Users\\studia\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\studia\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\studia\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\studia\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\studia\\AppData\\Local\\atom\\bin;C:\\Users\\studia\\AppData\\Local\\Julia-1.0.1\\bin;C:\\Users\\studia\\AppData\\Local\\Programs\\MiKTeX 2.9\\miktex\\bin\\x64\\;C:\\Program Files\\R\\R-3.5.1\\bin;C:\\Users\\studia\\AppData\\Roaming\\npm",
         "PLATFORMIO_CALLER": "vscode"
     },
     "files.associations": {
         "array": "cpp",
-        "initializer_list": "cpp"
+        "initializer_list": "cpp",
+        "*.tcc": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "exception": "cpp",
+        "functional": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "memory": "cpp",
+        "new": "cpp",
+        "ostream": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "typeinfo": "cpp",
+        "utility": "cpp"
     }
 }
